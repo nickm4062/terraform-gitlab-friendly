@@ -2,7 +2,7 @@
 FROM chef/chefdk:latest
 MAINTAINER nick@nickmontgomery.com
 ENTRYPOINT "/bin/sh"
-ARG TF_VERSION=0.11.1
+ARG TF_VERSION=0.11.2
 ARG TFLINT_VERSION=0.5.3
 WORKDIR /tmp
 ADD Gemfile .
